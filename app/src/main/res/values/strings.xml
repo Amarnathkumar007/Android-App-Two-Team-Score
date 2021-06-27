@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <string name="app_name" parent="Theme.AppCompat.Light">CricketScore</string>
+
+        <style name="MyThemeOverlay_Toolbar3" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+            <!-- This attributes is used by title -->
+            <item name="android:textColorPrimary">@color/white</item>
+
+            <!-- This attributes is used by navigation icon and overflow icon -->
+            <item name="colorOnPrimary">#FF9800</item>
+        </style>
+
+
+    <style name="Button.White" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/darker_gray</item>
+    </style>
+
+
+</resources>
